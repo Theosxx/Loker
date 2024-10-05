@@ -1,0 +1,35 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .login-container, .register-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input {
+        width: calc(100% - 30px);
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .login-button, .register-button {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .toggle-password {
+        right: 8px;
+        top: 8px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .input-container {
+        margin-bottom: 15px;
+    }
+}
