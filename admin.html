@@ -53,36 +53,47 @@
 			</div>
 		</nav>
 		<main>
+			
 			<h1 class="title">Dashboard</h1>
 			<ul class="breadcrumbs">
 				<li><a href="#">Home</a></li>
 				<li class="divider">/</li>
 				<li><a href="#" class="active">Dashboard</a></li>
 			</ul>
-            <table id="customers">
-                <tr>
-                  <th>Nama PT</th>
-                  <th>Email </th>
-                  <th>Alamat</th>
-                  <th>Jenis</th>
-                  <th>Action</th>
-                </tr>
-                <tr>
-                  <td>Lenovo</td>
-                  <td>Lenovo@gmail.com</td>
-                  <td>Germany</td>
-                  <td>Back End</td>
-                  <td><a href="">Delete Edit</a></td>
-                </tr>
-                <tr>
-                    <td>Nestle</td>
-                    <td>Nestle@gmail.com</td>
-                    <td>England</td>
-                    <td>Back End</td>
-                    <td><a href="">Delete Edit</a></td>
-                </tr>
-              </table>
+			<div id="modal" class="modal">
+				<div class="modal-content">
+				<span class="close-btn" onclick="closeModal()">&times;</span>
+				<h2>Tambah Data Baru</h2>
+				<form id="addDataForm">
+					<label for="namaPT">Nama PT:</label>
+					<input type="text" id="namaPT" name="namaPT" required>
+					
+					<label for="emailPT">Email:</label>
+					<input type="email" id="emailPT" name="emailPT" required>
+					
+					<label for="alamatPT">Alamat:</label>
+					<input type="text" id="alamatPT" name="alamatPT" required>
+					
+					<label for="jenisPT">Jenis:</label>
+					<input type="text" id="jenisPT" name="jenisPT" required>
+					
+					<button type="submit">Simpan</button>
+				</form>
+				</div>
+			</div>
+			<button id="openModalBtn">Tambah Data</button>
+			
+            <table id="companiesTable" border="1">
+				<tr>
+				  <th>No</th>
+				  <th>Nama Perusahaan</th>
+				  <th>Email</th>
+				  <th>Alamat</th>
+				  <th>Jenis</th>
+				</tr>
+			</table>
 		</main>
 	</section>
+	<script src="assets/js/admin.js"></script>
 </body>
 </html>

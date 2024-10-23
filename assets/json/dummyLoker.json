@@ -1,0 +1,26 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "name": "Lenovo",
+        "email": "lenovo@gmail.com",
+        "address": "Germany",
+        "type": "Back End"
+      },
+      {
+        "id": 2,
+        "name": "Nestle",
+        "email": "nestle@gmail.com",
+        "address": "England",
+        "type": "Front End"
+      },
+      {
+        "id": 3,
+        "name": "Apple",
+        "email": "apple@gmail.com",
+        "address": "USA",
+        "type": "Full Stack"
+      }
+    ]
+  }
+  
