@@ -35,7 +35,10 @@ a {
 li {
 	list-style: none;
 }
-
+nav .toggle-sidebar {
+	font-size: 18px;
+	cursor: pointer;
+}
 #sidebar {
 	position: fixed;
 	max-width: 260px;
@@ -399,15 +402,6 @@ main .breadcrumbs li.divider {
 	display: block;
 	margin: 10px 0 5px;
   }
-  
-  input {
-	width: 100%;
-	padding: 8px;
-	margin-bottom: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-  }
-  
   button {
 	padding: 10px 20px;
 	background-color: #007bff;
