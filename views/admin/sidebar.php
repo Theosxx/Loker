@@ -43,7 +43,7 @@ if (!isset($_SESSION['user_id'])) {
             </form>
             <span class="divider"></span>
             <h1>Welcome, <?= htmlspecialchars($_SESSION['email']) ?>!</h1>
-            <li><a href="../../controller/Logout-users.php" name=""><i class='bx bxs-log-out-circle'></i> Logout</a></li>
+            <li><a href="../../controller/auth/Logout-users.php" name=""><i class='bx bxs-log-out-circle'></i> Logout</a></li>
             <div class="profile">
                 <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
                 <ul class="profile-link">
