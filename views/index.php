@@ -16,7 +16,7 @@
         <li><a href="#">Lihat profil</a></li>
         <li><a href="#">Jelajahi perusahaan</a></li>
         <li><button class="login-btn"><a href="auth/login.php">Masuk</a></button></li>
-        <li><button class="login-btn"><a href="admin/admin.php">Admin</a></button></li>
+        <li><button class="login-btn"><a href="admin/index.php">Admin</a></button></li>
       </ul>
     </nav>
   </header>

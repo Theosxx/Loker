@@ -24,16 +24,15 @@
 <body>
     <?php include 'sidebar.php'; ?>
 	<div class="form-loker">
-		<form action="../../controller/LokerController.php" method="post">
+		<form action="../../controller/loker/create.php" method="post">
 			<label for="">Nama PT</label>
-			<input type="text" name="namaPT"> 
-			<label for="">Email PT</label>
-			<input type="text" name="emailPT"> 
+			<input type="text" name="name"> 
+			<label for="">Jenis Industri</label>
+			<input type="text" name="industry"> 
 			<label for="">alamat PT</label>
-			<input type="text" name="alamatPT"> 
-			<label for="">Jenis PT</label>
-			<input type="text" name="jenisPT"> 
-
+			<input type="text" name="location"> 
+			<label for="">Web Url</label>
+			<input type="text" name="website"> 
 			<button type="submit" name="simpan" class="btn-simpan" >Simpan</button>
 		</form>
 	</div>

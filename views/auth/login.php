@@ -13,7 +13,7 @@
 <body>
     <div class="login-container">
         <h1>Login to Your Account</h1>
-        <form id="loginForm" method="post" action="../../controller/AuthController.php">
+        <form id="loginForm" method="POST" action="../../controller/auth/Login-users.php">
             <div class="input-container">
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Email..." name="email">
@@ -25,7 +25,7 @@
                     <span class="toggle-password">&#128065;</span>
                 </div>
             </div>
-            <button type="submit" class="login-button">Login</button>
+            <button type="submit" name="login" class="login-button">Login</button>
             <a href="register.php" class="register-link">Register Here</a>
         </form>
         </div>

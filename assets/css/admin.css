@@ -414,18 +414,19 @@ main .breadcrumbs li.divider {
   button:hover {
 	background-color: #0056b3;
   }
-  table {
-	width: 80%;
-	margin: 20px auto;
-	border-collapse: collapse;
-	background-color: #fff;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
 
-  table, th, td {
-	border: 1px solid #ddd;
+  .container-data{
+	margin-top: 50px;
+	margin-left: 50vh;
   }
-
+  .container-table-loker{
+	margin-top: 50px;
+	margin-left: 50vh;
+  }
+  .container-edit-loker{
+	margin-top: 80px;
+	margin-left: 80vh;
+  }
   th, td {
 	padding: 12px;
 	text-align: left;

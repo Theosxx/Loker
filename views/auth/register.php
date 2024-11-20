@@ -13,20 +13,20 @@
 <body>
     <div class="register-container">
         <h1>Register to Your Account</h1>
-        <form>
+        <form action="../../controller/auth/Register-users.php" method="post">
+            <div class="input-container">
+                <label for="name">Username</label>
+                <input type="text" id="username" name="name" placeholder="name...">
+            </div>
             <div class="input-container">
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Email...">
+                <input type="email" id="email" name="email" placeholder="Email...">
             </div>
             <div class="input-container">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password...">
+                <input type="password" id="password" name="password" placeholder="Password...">
             </div>
-            <div class="input-container">
-                <label for="confirm-password">Re-enter Your Password</label>
-                <input type="password" id="confirm-password" placeholder="Password...">
-            </div>
-            <button type="submit" class="register-button">Register</button>
+            <button type="submit" name="register" class="register-button">Register</button>
             <a href="login.php" class="register-link">Login Page</a>
         </form>
     </div>
