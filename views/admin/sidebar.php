@@ -28,7 +28,10 @@ if (!isset($_SESSION['user_id'])) {
             <li><a href="#" class="active"><i class='bx bxs-dashboard icon'></i> Dashboard</a></li>
             <li class="divider" data-text="main">Main</li>
             <li>
-                <a href="index.php"><i class='bx bxs-inbox icon'></i> Loker Monitor <i class='bx bx-chevron-right icon-right'></i></a>
+                <a href="index.php"><i class='bx bxs-inbox icon'></i> Loker  <i class='bx bx-chevron-right icon-right'></i></a>
+            </li>
+            <li>
+                <a href="index-jobs.php"><i class='bx bxs-inbox icon'></i>  Jobs <i class='bx bx-chevron-right icon-right'></i></a>
             </li>
         </ul>
     </section>

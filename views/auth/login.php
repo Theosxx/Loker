@@ -29,30 +29,6 @@
             <a href="register.php" class="register-link">Register Here</a>
         </form>
         </div>
-    <div id="snackbar"></div>
-
-    <script>
-        // document.getElementById('loginForm').addEventListener('submit', function(event) {
-        //     event.preventDefault();
-        //     var email = document.getElementById('email').value;
-        //     var password = document.getElementById('password').value;
-        //     if (email && password) {
-        //         var snackbar = document.getElementById('snackbar');
-        //         snackbar.textContent = 'Login successfully: ' + email;
-        //         snackbar.className = 'show';
-        //         setTimeout(function() {
-        //             snackbar.className = snackbar.className.replace('show', '');
-        //         }, 3000);
-        //     } else {
-        //         var snackbar = document.getElementById('snackbar');
-        //         snackbar.textContent = 'Please fill in both email and password!';
-        //         snackbar.className = 'show';
-        //         setTimeout(function() {
-        //             snackbar.className = snackbar.className.replace('show', '');
-        //         }, 3000);
-        //     }
-        // });
-    </script>
 </body>
 
 </html>
